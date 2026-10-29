@@ -861,7 +861,7 @@ docker run -p 8000:8000 --env-file .env lifememory-backend
 
 ---
 
-## 💻 Development
+## Development
 
 ### Running in Development Mode
 
@@ -900,7 +900,7 @@ pytest            # 27 tests, fully offline: no Supabase, database or API keys n
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Automated tests (`backend/tests/`)
 
@@ -942,7 +942,7 @@ There is no quantitative retrieval-quality benchmark yet, so this README makes n
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -989,7 +989,7 @@ LOG_LEVEL=DEBUG python main.py
 
 ---
 
-## 📝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these guidelines:
 
@@ -1008,19 +1008,19 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📄 License
+## License
 
 MIT, see [LICENSE](LICENSE). © 2026 Pranay Kumar Karvi. Contributions by Sharan K.
 
 ---
 
-## ⚠️ Known limitations
+## Known limitations
 
 - The **Delete account** button in Settings is a placeholder: no backend endpoint deletes the account yet.
 - Retrieval quality has no labelled benchmark. The weights (similarity 0.5, recency 0.3, mood 0.2, 30-day recency decay) are hand-set.
 - Intent classification and answers depend on a hosted LLM, so the same question can get slightly different wording each time.
 
-## 📸 Screenshots
+## Screenshots
 
 | Sign in | Journal + memory assistant |
 |---|---|
@@ -1028,7 +1028,7 @@ MIT, see [LICENSE](LICENSE). © 2026 Pranay Kumar Karvi. Contributions by Sharan
 
 The screenshots use sample entries from `DEMO_ENTRIES.md`, with the backend responses stubbed so the UI could be captured without a live Supabase project.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **FastAPI** for the excellent async framework
 - **Supabase** for the database and auth infrastructure
@@ -1038,7 +1038,7 @@ The screenshots use sample entries from `DEMO_ENTRIES.md`, with the backend resp
 
 ---
 
-## 📞 Support
+## Support
 
 For issues, questions, or contributions:
 
@@ -1049,7 +1049,7 @@ For issues, questions, or contributions:
 
 <div align="center">
 
-**Built with ❤️ for personal reflection and growth**
+**Built with care for personal reflection and growth**
 
 [⬆ Back to Top](#lifememory-ai)
 
